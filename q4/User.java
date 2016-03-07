@@ -4,6 +4,7 @@
  */
 public class User {
 	private String id_str;
+	private long followers_count;
 	
 	/*
 	 * This function sets user id.
@@ -12,10 +13,12 @@ public class User {
 		this.id_str = id_str;
 	}
 	
+	
 	/*
 	 * This function sets tweet id.
 	 */
 	public String getId(){
 		return id_str;
 	}
+	
 }
